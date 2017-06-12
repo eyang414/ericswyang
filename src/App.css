@@ -1,0 +1,449 @@
+/*CSS from the react-app repo*/
+
+body, html {
+  height: 100%;
+}
+
+/*CSS for the landing page parallax*/
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.container-vflex {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("./images/recruiters_landingPic.jpeg");
+  background-image: -o-linear-gradient(left, rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("./images/recruiters_landingPic.jpeg");
+  background-image: linear-gradient(to right, rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("./images/recruiters_landingPic.jpeg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-image {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+.welcome-header {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+/*CSS for the landing page interactive content*/
+.container2 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  text-align: center;
+}
+
+.container2-text {
+  font-size: 25px;
+  max-width: 95%;
+  color: #d3d3d3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-padding {
+  padding-bottom: 40px;
+}
+
+.container-resume {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+.container-contact {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: black;
+  text-align: center;
+  overflow: auto;
+}
+
+.container-resume2 {
+  width: 100%;
+  position: relative;
+  background-color: #e6e6e6;
+  text-align: center;
+  overflow: auto;
+}
+
+.container3{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-color: red;
+}
+
+
+
+.container-input {
+  background-color: grey;
+}
+
+.container-child {
+  position: relative;
+  background: none;
+}
+
+.flexbox-img-cont {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.flexbox-images {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px
+}
+
+.prof-pic {
+  height: auto;
+  width: auto;
+  max-height: 250px;
+  max-width: 250px;
+  border-radius: 100%;
+  top: 50%;
+}
+
+.header-font {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+.header-font-bl {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: #d3d3d3;
+}
+
+.text-font {
+  font-family: "Lato", sans-serif;
+}
+
+.text-font-italic {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
+.hi-eric-iama {
+  font-family: "Lato", sans-serif;
+  opacity: 0.01;
+}
+
+.hi-eric-iama-enter {
+  font-family: "Lato", sans-serif;
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.hi-eric-links {
+  opacity: 0.01;
+}
+
+.hi-eric-links-enter {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+/* Transitions */
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.testing-transition {
+  color: red;
+}
+
+/* CSS for link images (flexbox and transitions) */
+.friends-images-enter {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  opacity: 0.01;
+}
+.friends-images-enter-active {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+  transition-delay: 1s;
+}
+.recruiters-images-enter {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  opacity: 0.01;
+}
+.recruiters-images-enter-active {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+  transition-delay: 2s;
+}
+.random-images-enter {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  opacity: 0.01;
+}
+.random-images-enter-active {
+  height: 200px;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+  transition-delay: 3s;
+}
+
+.test-recruiters {
+  position: absolute;
+}
+
+.underline {
+  padding-bottom: 20px;
+  margin-top: 0;
+  padding-left: none;
+  padding-right: none;
+
+}
+
+.container-row {
+  text-align: center;
+  padding-bottom: 35px;
+  width: 100%;
+  margin: none;
+}
+
+.container-row-nopads {
+  text-align: center;
+  width: 100%;
+  margin: none;
+}
+
+.section-title {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.degree {
+  text-align: left;
+  padding-bottom: 6px;
+}
+
+.degree-descr {
+  padding-left: 0px;
+  text-align: left;
+}
+
+.proj-img {
+  width: 100%;
+  height: 250px;
+  padding-left: 25px;
+}
+
+.proj-img:hover {
+  width: 100%;
+  height: 250px;
+  padding-left: 25px;
+  opacity: 0.2;
+}
+
+.logo-white {
+  background: white;
+  height: auto;
+  width: 64px;
+  border-radius: 100%;
+}
+
+.logo-margin {
+  margin-bottom: 25px;
+}
+
+.gmail-logo {
+  width: 64px;
+  height: auto;
+}
+
+.linkedin-logo {
+  width: 68px;
+  height: auto;
+}
+
+.logo {
+  width: 48px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.contact-link {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+
+
+.lehigh-logo {
+  position: absolute;
+  left: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  max-width: auto;
+  opacity: 0.2
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+  .lehigh-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .lehigh-logo {
+    max-height: none;
+  }
+}
+.figure-test {
+  position: absolute;
+  color: red;
+  float: left;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.test-inline {
+}
+
+.margin-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-project {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  overflow: auto;
+}
+
+.mediaquery-test {
+  background: blue;
+}
+
+@media (max-width: 700px) {
+  .mediaquery-test {
+    background: red;
+  }
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.about-body-font {
+  font: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about-body-font2 {
+  font: Helvetica;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.ourphotos-figcaption {
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+.red-text {
+  color: red;
+}
+
+.black-border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.display-none {
+  opacity: 0.01;
+  display: none;
+}
+
+.transition-ease-enter {
+  opacity: 0.1;
+}
