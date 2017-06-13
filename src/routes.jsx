@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Route, IndexRoute } from 'react-router'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import { Provider } from 'react-redux'
 
 import store from './store'
@@ -11,7 +11,7 @@ import ResumeDeploy from './components/ResumeDeploy'
 
 const Routes = (props) => (
   <Provider store={store}>
-    <Router {...props}>
+    <Router history={hashHistory} {...props}>
       <Route path="/" component={App}>
         <IndexRoute component={IntroDeploy} />
         <Route path="/resume" component={ResumeDeploy} />
