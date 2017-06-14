@@ -18,12 +18,12 @@ const Projects = () => (
         <hr className="underline"></hr>
       </div>
       <div className="col-md-2 col-sm-2"></div>
-      <div className="row container-row margin-center">
+      <div className="container-row margin-center">
         <div className="grid">
 
           <div className="figure-padding">
             <figure className="effect-zoe">
-              <a href="http://superfriend.herokuapp.com/">
+              <a target="_blank" href="https://www.youtube.com/watch?v=68FKUGIvMCM">
                 <img src={superfriendWebsite} alt="superfriend website"/>
                 <figcaption className="superfriend-color">
                   <h2><span>SuperFriend</span></h2>
@@ -34,7 +34,7 @@ const Projects = () => (
           </div>
           <div className="figure-padding">
             <figure className="effect-zoe">
-              <a href="https://github.com/eyang414/rad">
+              <a target="_blank" href="https://github.com/eyang414/rad">
                 <img src={rentADevWebsite} alt="rent-a-dev website"/>
                 <figcaption className="black-border">
                   <h2><span>rent-a-dev</span></h2>

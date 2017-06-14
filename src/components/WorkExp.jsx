@@ -16,7 +16,7 @@ const WorkExp = () => (
         <hr className="underline"></hr>
       </div>
       <div className="col-md-2 col-sm-2"></div>
-      <div className="row container-row">
+      <div className="container-row">
         <div className="col-md-2 col-sm-2">
         </div>
         <div className="col-md-8 col-sm-8">
@@ -28,7 +28,7 @@ const WorkExp = () => (
           <div className="col-md-8 col-sm-8">
             <h4 className="degree bold-text">Fullstack Engineer</h4>
             <div className="degree-descr">
-              At FSA, I created several apps dealing with both frontend and backend code.  Working on SuperFriend, I developed backend database models with PostgreSQL, along with functionalities with JavaScript and Node.js to extract iMessage chat history from local drives and deliver the data to our web servers through an iFrame connection.  Also wrote tests using Mocha.js and Chai.js
+              At FSA, I created several apps dealing with both frontend and backend code.  Working on SuperFriend, I developed backend database models with PostgreSQL, along with functionalities with JavaScript and Node.js to extract iMessage chat history from local drives and deliver the data to our web servers through an iFrame connection.  Also wrote tests using Mocha+Chai.js.
               <br></br>
               As for rent-a-dev, I implemented the frontend MVC using React.js w/ Redux to render components based on user actions and credentials.  I also set up api routes, formatted the UI, and managed website design using AJAX/Axios, Bootstrap’s grid, and CSS, respectively.
             </div>
@@ -38,7 +38,7 @@ const WorkExp = () => (
         <div className="col-md-2 col-sm-2">
         </div>
       </div>
-      <div className="row container-row">
+      <div className="container-row">
         <div className="col-md-2 col-sm-2">
         </div>
         <div className="col-md-8 col-sm-8">

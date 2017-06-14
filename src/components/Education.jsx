@@ -18,7 +18,7 @@ const Education = () => (
       </div>
       <div className="col-md-2 col-sm-2"></div>
 
-      <div className="row container-row">
+      <div className="container-row">
         <div className="col-md-2 col-sm-2">
         </div>
         <div className="col-md-8 col-sm-8">
@@ -38,7 +38,7 @@ const Education = () => (
         </div>
       </div>
 
-      <div className="row container-row">
+      <div className="container-row">
         <div className="col-md-2 col-sm-2">
         </div>
         <div className="col-md-8 col-sm-8">

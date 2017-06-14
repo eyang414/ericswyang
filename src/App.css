@@ -80,6 +80,7 @@ body, html {
 
 .container-padding {
   padding-bottom: 40px;
+  overflow-x: auto;
 }
 
 .container-resume {
@@ -278,7 +279,7 @@ body, html {
   text-align: center;
   padding-bottom: 35px;
   width: 100%;
-  margin: none;
+  overflow: auto;
 }
 
 .container-row-nopads {
