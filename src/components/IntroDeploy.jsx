@@ -60,6 +60,9 @@ class IntroDeployContainer extends Component {
         <div>
           <div>
             <div className="container-vflex">
+              <div className="text-font">
+                My name is Eric, I am a software developer and I created this site using React w/ Redux!
+              </div>
               <div className="text-font">"Hi Eric, my name is <input className="text-font" type="text" autoComplete="off" name="name" placeholder="Name Please..." onChange={this.handleChange} onKeyDown={this.handleKeyDown} />
               "</div>
           </div>
