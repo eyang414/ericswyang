@@ -53,7 +53,7 @@ const Education = () => (
             <h4 className="degree bold-text">B.S. Materials Science and Engineering</h4>
             <div className="degree-descr">
               At one of the nation’s top materials science and engineering departments, I studied the fundamental material sciences and learned how to engineer a range of materials including metals, polymers, and ceramics to yield specific properties.
-              <br></br>It was also at Lehigh University, where I dealt with my first programming language and created simple input/output console apps using C++.
+              <br></br>It was also at Lehigh where I dealt with my first programming language and created simple input/output console apps using C++.
             </div>
           </div>
         </div>

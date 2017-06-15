@@ -11,11 +11,11 @@ const About = () => (
     <div className="header-font-bl section-title">
       About Me
     </div>
-    <div className="col-md-2 col-sm-2" />
-    <div className="col-md-8 col-sm-8">
+    <div className="col-xl-2 col-md-2 col-sm-2" />
+    <div className="col-xl-8 col-md-8 col-sm-8">
       <hr className="underline"></hr>
     </div>
-    <div className="col-md-2 col-sm-2" />
+    <div className="col-xl-2 col-md-2 col-sm-2" />
 
     <div className="container-row">
       <img src={profPic} className="prof-pic" alt="Eric's Face"></img>
@@ -38,19 +38,19 @@ const About = () => (
     </div>
 
     <div className="container-row">
-      <div className="col-md-2 col-sm-2" />
-      <div className="col-md-8 col-sm-8 container2-text about-body-font">
+      <div className="col-xl-2 col-md-2 col-sm-2" />
+      <div className="col-xl-8 col-md-8 col-sm-8 container2-text about-body-font">
         I am an intuitive problem solver always thinking of solutions
       </div>
       <div className="col-md-2 col-sm-2" />
     </div>
 
     <div className="container-row">
-      <div className="col-md-2 col-sm-2" />
-      <div className="col-md-8 col-sm-8 container2-text about-body-font2">
-        From an early age, I felt a deep need to help others and wanted to invent products that would positively impact our society.  This need led me become an engineer in the manufacturing industry and transition to Fullstack Academy where I learned to code in JavaScript, HTML, and CSS.  Now, I am a software engineer who will endlessly pursue his life goals.
+      <div className="col-xl-2 col-md-2 col-sm-2" />
+      <div className="col-xl-8 col-md-8 col-sm-8 container2-text about-body-font2">
+        My goal is to create products that help others, ultimately creating a more sustainable society. I started pursuing this vision as a hands-on engineer in the manufacturing industry. To broaden my reach, I attended Fullstack Academy and learned to code in JavaScript, HTML, and CSS. My transition from a material to software engineer has given me a new way to think about – and solve – problems.
       </div>
-      <div className="col-md-2 col-sm-2" />
+      <div className="col-xl-2 col-md-2 col-sm-2" />
     </div>
 
   </div>

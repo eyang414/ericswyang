@@ -10,6 +10,8 @@ import Education from './Education.jsx'
 import WorkExp from './WorkExp.jsx'
 import Projects from './Projects.jsx'
 
+const colorWhite = {color: '#f8f8ff'}
+
 const mapStateToProps = (state) => {
   return {
     name: state.name
@@ -27,7 +29,7 @@ const Resume = (props) => (
     <div>
       <div className="container">
         <div className="welcome-header header-font">
-          {props.name && "Hello, " + props.name || "Welcome to my site!"}
+          {props.name && "Hello, " + props.name || <div>Software Engineer <div style={colorWhite}>Web Developer</div> </div>}
         </div>
       </div>
       <div className="parallax"></div>
